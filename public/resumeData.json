@@ -1,0 +1,187 @@
+{
+  "main": {
+    "name": "Shubham Ghosal",
+    "occupation": "Electronics Engineer",
+    "description": "A tech enthusiast currently working as a Automation Software Engineer at Luxoft India where I deliver Intelligent Process Automation using market leading RPA / BPM tech tools",
+    "image": "profilepic.jpg",
+    "bio": "I'm Shubham Ghosal, a passionate engineer currently looking forward to revolutionize the world of mainstream embedded software designing. My passion for embedded systems lies with dreaming up ideas and making them come true with elegant designs. I take great care in the experience, architecture, and quality of the things that I build.",
+    "contactmessage": "Please reach out to me if you have any questions or just want to say hi!",
+    "email": "shubhamghosal@gmail.com",
+    "phone": "+91-9007469367 / 8910865707",
+    "address": {
+      "street": "Kodichikkanahalli",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "zip": "560076"
+    },
+    "website": "https://github.com/shubhamghosal",
+    "resumedownload": "https://drive.google.com/file/d/1l0MpPH7BfZLAlZEq1YCIwDkGSiHIY9UN/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/mahii.ghosal/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/shubham-ghosal/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/electronically_energized/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/shubhamghosal",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here are some of the skills I've worked on",
+    "education": [
+      {
+        "school": "Techno India University",
+        "degree": "B.TECH in Electronics and Communication",
+        "graduated": "July 2018",
+        "grade": "CGPA: 8.59/10",
+        "description": "Completed engineering degree in Electronics and Communication with a distiction grade. I have done my graduation work in the field of VLSI, Embedded Systems and Robotics."
+      },
+      {
+        "school": "St Thomas Boys School",
+        "degree": "Higher Secondary(12th)",
+        "graduated": "May 2014",
+        "grade": "Percentage: 84.5%",
+        "description": "Completed my higher secondary education in science stream(PCM) with a distinction grade."
+      },
+      {
+        "school": "St Thomas Boys School",
+        "degree": "Secondary(10th)",
+        "graduated": "May 2012",
+        "grade": "Percentage: 80.6%",
+        "description": "Completed my secondary education in science stream with a distinction grade."
+      }
+    ],
+    "work": [
+      {
+        "company": "Luxoft India LLP",
+        "title": "Analyst - Software Developer ",
+        "years": "December 2021 - Present",
+        "description": "Working as an BPM based Software Developer using Intelligent Process Automation delivered using market leading BPM technology, Case Management and Robotic Process Automation tools like Appian and others."
+      },
+      {
+        "company": "Amazon India",
+        "title": "Associate",
+        "years": "July 2020 - January 2021",
+        "description": "Worked as an Associate(FTC) and handled multiple skillsets that involved units of Digital & Devices(D2) for troubleshooting issues related to Amazon based devices as well as parts of North American Retail."
+      }
+    ],
+    "training": [
+      {
+        "school": "Emertxe IT Training School, Bangalore",
+        "title": "Emertxe Certified Embedded Professional ",
+        "years": "April 2022 - Present",
+        "description": "Emertxe Certified Embedded Professional is a certification program that is designed to provide a foundation of knowledge and skills to the students to become a professional Embedded Software Developer."
+      },
+      {
+        "school": "CDAC ACTS, Pune",
+        "title": "PG e-Diploma in Advanced Computing",
+        "years": "May 2021 - September 2021",
+        "description": "Trained on the latest technologies and tools in the field of Software Designing with specialization in Java based Full Stack Applications."
+      },
+      {
+        "school": "Tata Communications Limited",
+        "title": "Apprentice Training in Telecommunications",
+        "years": "May 2019 - July 2019",
+        "description": "Worked with the Project Implementation team in popular technologies such as Dense Wavelength Division Multiplexing (DWDM) and Synchronous Digital Hierarchy (SDH) or SONET"
+      }
+    ],
+    "skills": [
+      {
+        "name": "C / C++",
+        "level": "70%"
+      },
+      {
+        "name": "Java",
+        "level": "55%"
+      },
+      {
+        "name": "Linux OS",
+        "level": "80%"
+      },
+      {
+        "name": "ReactJS",
+        "level": "50%"
+      },
+      {
+        "name": "MySQL",
+        "level": "80%"
+      },
+      {
+        "name": "Spring Boot",
+        "level": "50%"
+      },
+      {
+        "name": "HTML / CSS",
+        "level": "80%"
+      },
+      {
+        "name": "SAIL Programming",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Jobs Made Easy",
+        "category": "React and Java Based Web Application for a simplified job search",
+        "image": "JME-fe.png",
+        "url": "https://github.com/shubhamghosal/Jobs_Made_Easy_Portal_CDAC"
+      },
+      {
+        "title": "Facial Recognition System",
+        "category": "Python and OpenCV Based Facial Recognition",
+        "image": "facial-recognition.jpg",
+        "url": "https://github.com/shubhamghosal/B.Tech_Facial_Recognition_Project"
+      },
+      {
+        "title": "Measurement Made Easy",
+        "category": "Prototype I built for measuring multiple parameters in a single device",
+        "image": "mme-fe.png",
+        "url": "https://drive.google.com/file/d/1aUruRa0bFWajG88Vo2tCxtWu3TLb9eSD/view"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "protfolio-fe.png",
+        "url": "https://github.com/shubhamghosal/career-portfolio"
+      },
+      {
+        "title": "Semi Autonomous Robotic Arm",
+        "category": "Robotic Arm with a camera and a motor",
+        "image": "sara-fe.png",
+        "url": "https://github.com/shubhamghosal/B.Tech_SARA_Project"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.",
+        "user": "Dr. APJ Abdul Kalam"
+      },
+      {
+        "text": "You have to accept the shortcomings. Unless you accept them, the process of getting stronger takes a longer time. Acceptance and honesty are the keys to success.",
+        "user": "Mahendra Singh Dhoni"
+      }
+    ]
+  }
+}
