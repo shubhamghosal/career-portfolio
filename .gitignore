@@ -21,7 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# personal data
-/public/resume
-/src/Components/Contact.js
