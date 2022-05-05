@@ -111,7 +111,7 @@ class Contact extends Component {
                         </div>
 
                         <div>
-                           <button type="submit" className='submit' onClick={this.sendMail}>Submit</button>
+                           <button type="submit" className="submit" onClick={this.sendMail}>Submit</button>
                         </div>
                      </fieldset>
                   </div>
