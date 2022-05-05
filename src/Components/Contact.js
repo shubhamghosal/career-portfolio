@@ -35,21 +35,25 @@ class Contact extends Component {
    }
 
    sendMail = () => {
-      var template_params = {
-         "name": this.state.name,
-         "email": this.state.email,
-         "subject": this.state.subject,
-         "message": this.state.message,
+      if (this.state.name === '' || this.state.email === '' || this.state.message === '') {
+         alert('Please fill all the required fields');
       }
+      else {
+         var template_params = {
+            "name": this.state.name,
+            "email": this.state.email,
+            "subject": this.state.subject,
+            "message": this.state.message,
+         }
 
-      var service_id = "service_lou2ksh";
-      var template_id = "template_itlzuaf";
-      emailjs.send(service_id, template_id, template_params, 'swfaMDkc4OzMwfshM')
-         .then(function (response) {
-            alert('SUCCESS! Your message has been sent succesfully.');
-         }, function (err) {
-            console.log('FAILED...', err);
-         });
+         var service_id = "service_lou2ksh";
+         var template_id = "template_itlzuaf";
+         emailjs.send(service_id, template_id, template_params, 'swfaMDkc4OzMwfshM')
+            .then(function (response) {
+               alert('SUCCESS! Your message has been sent succesfully.');
+            }, function (err) {
+               console.log('FAILED...', err);
+            });
 
          this.setState({
             name: '',
@@ -57,6 +61,7 @@ class Contact extends Component {
             subject: '',
             message: ''
          });
+      }
    };
 
    render() {
