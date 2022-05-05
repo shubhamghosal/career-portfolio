@@ -46,9 +46,16 @@ class Contact extends Component {
       var template_id = "template_itlzuaf";
       emailjs.send(service_id, template_id, template_params, 'swfaMDkc4OzMwfshM')
          .then(function (response) {
-            alert('SUCCESS! Your email has been sent succesfully.');
+            alert('SUCCESS! Your message has been sent succesfully.');
          }, function (err) {
             console.log('FAILED...', err);
+         });
+
+         this.setState({
+            name: '',
+            email: '',
+            subject: '',
+            message: ''
          });
    };
 
@@ -92,22 +99,22 @@ class Contact extends Component {
 
                         <div>
                            <label htmlFor="contactName">Name <span className="required">*</span></label>
-                           <input type="text" defaultValue="" size="35" id="contactName" name="name" onChange={this.handleChangeName} />
+                           <input type="text" defaultValue="" size="35" id="contactName" name="name" value={this.state.name} onChange={this.handleChangeName} />
                         </div>
 
                         <div>
                            <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                           <input type="text" defaultValue="" size="35" id="contactEmail" name="email" onChange={this.handleChangeEmail} />
+                           <input type="text" defaultValue="" size="35" id="contactEmail" name="email" value={this.state.email} onChange={this.handleChangeEmail} />
                         </div>
 
                         <div>
                            <label htmlFor="contactSubject">Subject</label>
-                           <input type="text" defaultValue="" size="35" id="contactSubject" name="subject" onChange={this.handleChangeSubject} />
+                           <input type="text" defaultValue="" size="35" id="contactSubject" name="subject" value={this.state.subject} onChange={this.handleChangeSubject} />
                         </div>
 
                         <div>
                            <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                           <textarea cols="50" rows="15" id="contactMessage" name="message" onChange={this.handleChangeMessage}></textarea>
+                           <textarea cols="50" rows="15" id="contactMessage" name="message" value={this.state.message} onChange={this.handleChangeMessage}></textarea>
                         </div>
 
                         <div>
