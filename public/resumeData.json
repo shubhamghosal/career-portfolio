@@ -105,20 +105,24 @@
     ],
     "skills": [
       {
-        "name": "C / C++",
+        "name": "C Programming",
         "level": "70%"
       },
       {
-        "name": "Java",
+        "name": "C++",
         "level": "60%"
       },
       {
-        "name": "Linux OS",
+        "name": "Java",
+        "level": "70%"
+      },
+      {
+        "name": "Linux OS / Shell Scripting",
         "level": "80%"
       },
       {
         "name": "ReactJS",
-        "level": "50%"
+        "level": "60%"
       },
       {
         "name": "MySQL",
@@ -156,7 +160,7 @@
         "title": "Measurement Made Easy",
         "category": "Prototype I built for measuring multiple parameters in a single device",
         "image": "mme-fe.png",
-        "url": "https://drive.google.com/file/d/1aUruRa0bFWajG88Vo2tCxtWu3TLb9eSD/view"
+        "url": "https://drive.google.com/file/d/1aUruRa0bFWajG88Vo2tCxtWu3TLb9eSD/view?usp=sharing"
       },
       {
         "title": "Resume Website",
@@ -169,14 +173,20 @@
         "category": "Robotic Arm with a camera and a motor",
         "image": "sara-fe.png",
         "url": "https://github.com/shubhamghosal/B.Tech_SARA_Project"
+      },
+      {
+        "title": "CMOS Based Tranceiver Design",
+        "category": "Prototype I built for designing a CMOS based Tranceiver",
+        "image": "CMOS_Design.png",
+        "url": "https://drive.google.com/file/d/1DIz4mofUD53tdq1BaDKxYe8-qF-woDQU/view?usp=sharing"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.",
-        "user": "Dr. APJ Abdul Kalam"
+        "text": "I think that's the single best piece of advice: constantly think about how you could be doing things better and questioning yourself.",
+        "user": "Elon Reeve Musk"
       },
       {
         "text": "You have to accept the shortcomings. Unless you accept them, the process of getting stronger takes a longer time. Acceptance and honesty are the keys to success.",
