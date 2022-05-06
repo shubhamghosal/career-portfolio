@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import validator from 'validator';
 import * as emailjs from '@emailjs/browser';
 
 class Contact extends Component {
@@ -8,7 +9,8 @@ class Contact extends Component {
          name: '',
          email: '',
          subject: '',
-         message: ''
+         message: '',
+         emailValidate: ''
       }
    }
 
@@ -37,6 +39,9 @@ class Contact extends Component {
    sendMail = () => {
       if (this.state.name === '' || this.state.email === '' || this.state.message === '') {
          alert('Please fill all the required fields');
+      }
+      else if (!validator.isEmail(this.state.email)) {
+         alert('Please enter a valid email address');
       }
       else {
          var template_params = {
