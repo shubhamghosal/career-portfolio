@@ -26,6 +26,23 @@ class Resume extends Component {
         var className = 'bar-expand ' + skills.name.toLowerCase();
         return <li key={skills.name}><span style={{ width: skills.level }} className={className}></span><em>{skills.name}</em></li>
       })
+      var certifications = this.props.data.certifications.map(function (certifications) {
+        var certImage = 'images/certifications/' + certifications.image;
+        return <div key={certifications.name} className="columns portfolio-item">
+          <div className="item-wrap">
+            <a href={certifications.url} title={certifications.name}>
+              <img alt={certifications.name} src={certImage} />
+              <div className="overlay">
+                <div className="portfolio-item-meta">
+                  <h5>{certifications.name}</h5>
+                  <p>{certifications.description}</p>
+                </div>
+              </div>
+              <div className="link-icon"><i className="fa fa-link"></i></div>
+            </a>
+          </div>
+        </div>
+      })
     }
 
     return (
@@ -68,9 +85,7 @@ class Resume extends Component {
           </div>
         </div>
 
-
-
-        <div className="row skill">
+        <div className="row work">
 
           <div className="three columns header-col">
             <h1><span>Skills</span></h1>
@@ -88,6 +103,20 @@ class Resume extends Component {
             </div>
           </div>
         </div>
+
+        <div className="row skill">
+          <div className="three columns header-col">
+            <h1><span>Certifications</span></h1>
+          </div>
+          <div className="twelve columns collapsed">
+            <p>Some of my professional certifications
+            </p>
+            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+              {certifications}
+            </div>
+          </div>
+        </div>
+
       </section>
     );
   }

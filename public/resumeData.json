@@ -148,6 +148,20 @@
         "name": "HTML / CSS",
         "level": "80%"
       }
+    ],
+    "certifications" : [
+      {
+        "name": "Appian Certified Associate Developer",
+        "image": "cert1.jpg",
+        "description": "Appian Certified Associate Developer is a certification program that is designed to determines high level, understanding of the connection between Appian applications and relational databases.",
+        "url": "https://community.appian.com/members/shubhamg0009?badge=cert&now=637895929696234502"
+      },
+      {
+        "name": "Intel AI From Data Centre to Edge",
+        "image": "cert2.png",
+        "description": "This program helps to understand the data science workflow using Intel's AI portfolio of processors and optimized software.",
+        "url": "https://www.credential.net/26evcofs"
+      }
     ]
   },
   "portfolio": {
