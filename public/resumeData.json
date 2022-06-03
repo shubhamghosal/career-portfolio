@@ -105,20 +105,28 @@
     ],
     "skills": [
       {
-        "name": "Appian BPM",
+        "name": "Appian / SAIL Technology",
         "level": "85%"
+      },
+      {
+        "name": "Agile Methodologies",
+        "level": "60%"
+      },
+      {
+        "name": "C Programming",
+        "level": "70%"
       },
       {
         "name": "Linux OS / Shell Scripting",
         "level": "80%"
       },
       {
-        "name": "C++",
-        "level": "60%"
-      },
-      {
         "name": "Java",
         "level": "70%"
+      },
+      {
+        "name": "C++",
+        "level": "60%"
       },
       {
         "name": "ReactJS",
@@ -139,10 +147,6 @@
       {
         "name": "HTML / CSS",
         "level": "80%"
-      },
-      {
-        "name": "SAIL Programming",
-        "level": "70%"
       }
     ]
   },
