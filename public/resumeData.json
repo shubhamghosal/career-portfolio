@@ -2,9 +2,9 @@
   "main": {
     "name": "Shubham Ghosal",
     "occupation": "Electronics Engineer",
-    "description": "A tech enthusiast currently working as a Automation Software Engineer at Luxoft India where I deliver Intelligent Process Automation using market leading RPA / BPM tech tools",
+    "description": "A tech enthusiast currently working as an Analyst Software Developer at Luxoft India where I deliver Intelligent Process Automation using market leading BPM / RPA tech tools",
     "image": "profilepic.jpg",
-    "bio": "I'm Shubham Ghosal, a passionate engineer currently looking forward to revolutionize the world of mainstream embedded software designing. My passion for embedded systems lies with dreaming up ideas and making them come true with elegant designs. I take great care in the experience, architecture, and quality of the things that I build.",
+    "bio": "I'm Shubham Ghosal, a passionate engineer currently looking forward to revolutionize the world of mainstream software & system designing. My passion for the software and embedded tools lies with dreaming up ideas and making them come true with elegant designs. I take great care in the experience, architecture, and quality of the things that I build.",
     "contactmessage": "Please reach out to me if you have any questions or just want to say hi!",
     "email": "shubhamghosal@gmail.com",
     "phone": "+91-9007469367 / 8910865707",
@@ -87,7 +87,7 @@
       {
         "school": "Emertxe IT Training School, Bangalore",
         "title": "Emertxe Certified Embedded Professional ",
-        "years": "April 2022 - Present",
+        "years": "6 months",
         "description": "Emertxe Certified Embedded Professional is a certification program that is designed to provide a foundation of knowledge and skills to the students to become a professional Embedded Software Developer."
       },
       {
@@ -105,8 +105,12 @@
     ],
     "skills": [
       {
-        "name": "C Programming",
-        "level": "70%"
+        "name": "Appian BPM",
+        "level": "85%"
+      },
+      {
+        "name": "Linux OS / Shell Scripting",
+        "level": "80%"
       },
       {
         "name": "C++",
@@ -115,10 +119,6 @@
       {
         "name": "Java",
         "level": "70%"
-      },
-      {
-        "name": "Linux OS / Shell Scripting",
-        "level": "80%"
       },
       {
         "name": "ReactJS",
@@ -131,6 +131,10 @@
       {
         "name": "Spring Boot",
         "level": "50%"
+      },
+      {
+        "name": "Rest API",
+        "level": "70%"
       },
       {
         "name": "HTML / CSS",
